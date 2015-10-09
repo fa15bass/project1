@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2015 Problem 2</title>
+</head>
+<body>
+<h1>Problem #2: Simplified Poker</h1>
+<div>
+<p>
+Background Information:	Most poker hands use five cards. In simplified four card poker, four cards are used for a hand. Four card poker hands are classified as one of the following: a Royal Flush, Straight Flush, Four-of-a-Kind, Flush, Straight, Three-of-a-kind, Two-pairs, One-Pair, Nothing.  You will be given four cards from a regulation 52-card deck of playing cards. Your program will determine if the four cards constitute:</p>
+</div>
+<div>
+<b>Four-of-a-Kind</b>   (all four cards of the same kind),<br>
+<b>Three-of-a-Kind</b>  (three cards of the same kind and one card different),<br>
+<b>Two-Pairs </b>          (two cards of the same kind and the other two cards of the same kind 
+                               but different than the first pair),<br>
+<b>One-Pair </b>             (two cards of the same kind and the other two cards of different kinds),<br>
+Or<br>
+<b>No-Matches. </b>        (all four cards of different kinds),<br>
+Note that in simplified poker we are not computing any other type of hand such as flushes or straights.<br></div>
+<div>
+<p>
+Normally, each card would be designated with a kind and a suit. For this problem, we will be ignoring the suits and just designating the kind of each card. The kind will be in the range  [2, 14], with  2 for a Two, 3 for a Three, … 11 for a Jack, 12 for a Queen, 13 for a King, and 14 for an Ace.
+Cards will be input from lowest to highest.
+</p>
+</div>
+<p>
+Programming Problem:
+	Input:		Four integers (in the range 2..14) in ascending order.
+The four integers will be on four separate lines. 
+	Output:	The type of hand followed by the four cards (integers).
+
+	Example 1:	Input:	7 7 7 7
+		Output:	Four-of-a-Kind   7 7 7 7
+	
+	Example 2:	Input:	3 9 9 9
+		Output:	Three-of-a-Kind   3 9 9 9
+
+Example 3:	Input:	2 4 4 6
+	Output:	One-Pair    2 4 4 6
+
+Example 4:	Input:	10 11 12 13
+Output:	No-Matches      10 11 12 13
+
+</p>

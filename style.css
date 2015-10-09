@@ -1,0 +1,98 @@
+body{
+	background-image: url("background.jpg");
+	
+	background-attachment: fixed;
+	background-size: cover;
+	color: limegreen;
+	font-family: monospace;
+}
+h1{
+	text-align: center;
+	background-color: black;
+	color: limegreen;
+}
+h2{
+	text-align: center;
+	background-color: black;
+	color: limegreen;
+}
+.black{
+	color: black;
+}
+h3{
+	margin: 25px;
+	background-size: 5px 10px;
+	color: white;
+}
+a.home{
+	border:0;
+	width: 42px;
+	height: 42px;
+	padding: 0px;
+	margin: 0px;
+}
+
+a{
+	border: 2px solid;
+	width: 120px;
+	height: 50px;
+	text-align: center;
+	border-radius: 3px;
+	background-color: black;
+	color: limegreen;
+	padding: 20px;
+	margin: 10px;
+	font-family: monospace;
+	
+}
+div{
+	padding: 5px;
+	background-color: white;
+	border-radius: 10px;
+	width: 50%;
+	color: black;
+
+}
+textarea{
+	margin-left: 50px;
+}
+.lefta{
+	width: 440px;
+	display: inline-block;
+	text-align: left;
+}
+.leftb{
+	width: 165px;
+	display: inline-block;
+	text-align: left;
+}
+label{
+	width: 150px;
+	display: inline-block;
+	text-align: right;
+}
+input{
+	border: 1px solid black;
+}
+.submit{
+	background-color: white;
+	position: relative;
+	top: 40px;
+	left: 150px;
+}
+nav a:hover{
+	color: white;
+	background-color: black;
+}
+button{
+	position: fixed;
+
+	top: 90px;
+	left: 450px;
+	text-align: center;
+	background-color: limegreen;
+	border-radius: 5px;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 15px;
+}

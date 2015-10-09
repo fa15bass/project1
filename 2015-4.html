@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>SIENA COLLEGE
+28th Annual High School Programming Contest</h1>
+<h3>March 27, 2015</h3>
+<p><strong><u>Problem #4: Four-Digit Number Cycler</u></strong><br>
+<div>Background Information: A very popular game is Four-Digit Number Cycler. In this game your opponent gives you a four-digit number (with at least two different digits) and you give your opponent a four-digit number (with at least two different digits). The first player to compute the number of cycles until repetition for his/her number is the winner. Cycles are described in the next paragraph. The game is mostly fair because every four-digit number (with at least two different digits) will reach a cycle of length one. </div>
+<div>CYCLES: Start with any four-digit number in which at least two of the digits are different. Put the digits in descending order to make one new four-digit number. Put the digits in ascending order to make a second new four-digit number. Include leading zeros if necessary. Subtract the second number from the first to form a new number. Apply the process until the new number is the same as the previous one.</div>
+<div>For example, if your starting number is 7213, the following computations are executed:</div></p>
+<img src = "prob4.png" alt = "Problem 4 Image">
+<p>
+In this example, eight subtractions were required to find a cycle of length one.<br>
+From the above example it can be observed if your starting number is 7641 (or any permutation of the digits 7641) then the number subtractions needed (to determine a cycle of length one) is 2.<br>
+If you start with a four-digit number that does not have at least two different digits then the number of necessary subtractions will be 2. 
+ 
+<div>Programming Problem:</p>
+	
+<dl>
+<dt>Input:    A four digit positive 4-digit integer.</dt>
+<dt>Output:  The input value and  the number of subtractions needed to find the cycle of length one. </dt>
+<dt>Example 1:</dt> <dd>Input: 		7213</dd>
+<dd> Output: 	7213	8</dd>
+<dt>Example 2:</dt> <dd>Input: 		7215</dd>
+<dd> Output: 	7215	4</dd>
+<dt>Example 3:</dt> <dd>Input: 		3333</dd>
+<dd> Output: 	3333	2</dd>
+</dl>
+</body>
+</html>
